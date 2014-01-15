@@ -1,0 +1,23 @@
+{
+  "name": "PageTransitions",
+  "version": "0.0.0",
+  "description": "Based on [codrops/PageTransitions](https://github.com/codrops/PageTransitions)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sillero/PageTransitions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sillero/PageTransitions/issues"
+  },
+  "homepage": "https://github.com/sillero/PageTransitions",
+  "devDependencies": {
+    "node-sass": "~0.8.1",
+    "grunt": "~0.4.2"
+  }
+}
