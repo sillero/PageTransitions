@@ -1,0 +1,66 @@
+@mixin page-transitions__preset($presetNum) {  
+  @each $preset in $page-transitions__presets {
+    @if $presetNum == nth($preset, 1) {
+        @include page-transition__load-modules(nth($preset, 2));
+    }
+  }
+}
+
+@mixin page-transitions__load-modules($moduleStr){
+    @each $module in $moduleStr {
+        @if $module == delay {
+            @include page-transitions__animation__delay;
+        }
+        @if $module == fade {
+            @include page-transitions__animation__fade;
+        }
+        @if $module == flip {
+            @include page-transitions__animation__flip;
+        }
+        @if $module == move-fade {
+            @include page-transitions__animation__move-fade;
+        }
+        @if $module == move {
+            @include page-transitions__animation__move;
+        }
+        @if $module == rotate-carousel {
+            @include page-transitions__animation__rotate-carousel;
+        }
+        @if $module == rotate-cube {
+            @include page-transitions__animation__rotate-cube;
+        }
+        @if $module == rotate-fall {
+            @include page-transitions__animation__rotate-fall;
+        }
+        @if $module == rotate-fold {
+            @include page-transitions__animation__rotate-fold;
+        }
+        @if $module == rotate-newspaper {
+            @include page-transitions__animation__rotate-newspaper;
+        }
+        @if $module == rotate-pull {
+            @include page-transitions__animation__rotate-pull;
+        }
+        @if $module == rotate-push {
+            @include page-transitions__animation__rotate-push;
+        }
+        @if $module == rotate-room {
+            @include page-transitions__animation__rotate-room;
+        }
+        @if $module == rotate-scale {
+            @include page-transitions__animation__rotate-scale;
+        }
+        @if $module == rotate-sides {
+            @include page-transitions__animation__rotate-sides;
+        }
+        @if $module == rotate-slide {
+            @include page-transitions__animation__rotate-slide;
+        }
+        @if $module == rotate-unfold {
+            @include page-transitions__animation__rotate-unfold;
+        }
+        @if $module == scale-fade {
+            @include page-transitions__animation__scale-fade;
+        }
+    }
+}
