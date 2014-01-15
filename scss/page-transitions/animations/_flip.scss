@@ -1,4 +1,4 @@
-@mixin page-transition__flip {
+@mixin page-transitions__animations__flip {
 .pt-page-flipOutRight {
     -webkit-transform-origin: 50% 50%;
     -webkit-animation: flipOutRight .5s both ease-in;

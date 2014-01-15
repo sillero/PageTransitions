@@ -1,4 +1,4 @@
-@mixin page-transition__scale-fade {
+@mixin page-transitions__animations__scale-fade {
 .pt-page-scaleDown {
     -webkit-animation: scaleDown .7s ease both;
     -moz-animation: scaleDown .7s ease both;

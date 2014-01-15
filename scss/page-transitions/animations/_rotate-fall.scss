@@ -1,4 +1,4 @@
-@mixin page-transition__rotate-fall {
+@mixin page-transitions__animations__rotate-fall {
 .pt-page-rotateFall {
     -webkit-transform-origin: 0% 0%;
     -webkit-animation: rotateFall 1s both ease-in;

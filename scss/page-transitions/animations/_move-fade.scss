@@ -1,4 +1,4 @@
-@mixin page-transition__move-fade {
+@mixin page-transitions__animations__move-fade {
 .pt-page-moveToLeftFade {
     -webkit-animation: moveToLeftFade .7s ease both;
     -moz-animation: moveToLeftFade .7s ease both;

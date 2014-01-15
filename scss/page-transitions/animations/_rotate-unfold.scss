@@ -1,4 +1,4 @@
-@mixin page-transition__rotate-unfold {
+@mixin page-transitions__animations__rotate-unfold {
 .pt-page-rotateUnfoldLeft {
     -webkit-transform-origin: 100% 50%;
     -webkit-animation: rotateUnfoldLeft .7s both ease;

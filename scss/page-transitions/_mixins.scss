@@ -1,7 +1,7 @@
 @mixin page-transitions__preset($presetNum) {  
   @each $preset in $page-transitions__presets {
     @if $presetNum == nth($preset, 1) {
-        @include page-transition__load-modules(nth($preset, 2));
+        @include page-transitions__load-modules(nth($preset, 2));
     }
   }
 }

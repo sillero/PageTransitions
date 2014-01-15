@@ -1,4 +1,4 @@
-@mixin page-transition__rotate-fold {
+@mixin page-transitions__animations__rotate-fold {
 .pt-page-rotateFoldRight {
     -webkit-transform-origin: 0% 50%;
     -webkit-animation: rotateFoldRight .7s both ease;
